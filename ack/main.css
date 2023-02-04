@@ -1,5 +1,5 @@
 :root {
-  --clr-primary: rgb(96, 60, 174);
+  --clr-primary: #00A3A3;
   --clr-light: #f4f4f4;
   --clr-dark: #333;
   --clr-warning: rgb(99, 36, 36);
@@ -11,6 +11,7 @@
   font-family: inherit;
   box-sizing: border-box;
 }
+
 
 body {
   width: 70%;
