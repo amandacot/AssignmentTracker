@@ -4,7 +4,7 @@
   "description": "Extension for mytypings.com",  
   "version": "1.0",  
   "browser_action": {  
-   "default_icon": "logo.png",  
+   "default_icon": "acvbhjmk.png",  
    "default_popup": "index.html"  
   },  
   "permissions": [  
