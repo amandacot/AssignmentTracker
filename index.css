@@ -1,3 +1,8 @@
+body {
+  margin: 0;
+  min-width: 250px;
+}
+
 /* Include the padding and border in an element's total width and height */
 * {
   box-sizing: border-box;
@@ -14,10 +19,10 @@ ul li {
   cursor: pointer;
   position: relative;
   padding: 12px 8px 12px 40px;
-  background: #eee;
+  list-style-type: none;
+  background: #2196F3;
   font-size: 18px;
   transition: 0.2s;
-
   /* make the list items unselectable */
   -webkit-user-select: none;
   -moz-user-select: none;
@@ -27,7 +32,7 @@ ul li {
 
 /* Set all odd list items to a different color (zebra-stripes) */
 ul li:nth-child(odd) {
-  background: #f9f9f9;
+  background: blue;
 }
 
 /* Darker background-color on hover */
@@ -71,7 +76,7 @@ ul li.checked::before {
 
 /* Style the header */
 .header {
-  background-color: #f44336;
+  background-color: blue;
   padding: 30px 40px;
   color: white;
   text-align: center;
@@ -107,4 +112,8 @@ input {
   cursor: pointer;
   transition: 0.3s;
   border-radius: 0;
+}
+
+.addBtn:hover {
+  background-color: #bbb;
 }
