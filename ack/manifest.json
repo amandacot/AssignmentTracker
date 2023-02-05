@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
-  "name": "mytypings",
-  "description": "Extension for mytypings.com",
+  "name": "Aqua Agenda",
+  "description": "Extension for Aqua Agenda",
   "version": "1.0",
   "browser_action": {
    "default_icon": "ryuh.png",
